@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/png"slizes="64x64" href="image/logopth.png"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+       <div class="topnav" id="myTopnav">
+                <div class="logo">
+                <a href=''><img src="image/logoitm.png"/></a></div>
+
+                
+                    <a href="#" onclick="biodata()">Biodata Saya</a>
+                    <a href="#" onclick="peta()">Peta</a>
+                    <a href="#" onclick="wisata()">Wisata</a>
+                    <a href="#" onclick="tentang()">Tentang</a>
+                    <a href="#" class="active" onclick="home()">Home</a>
+                    
+                    
+                    
+                    
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+    </nav>
+      <div class="layar-penuh">
+        <header id="home">
+          <div class="overlay"></div>
+          <video autoplay muted loop>
+            <source src="image/cinematic.mp4" type="video/mp4" />
+          </video>
+          <div class="intro">
+            <h3>Way Kambas</h3><br>
+            <p>
+              Semua Tentang Way Kambas
+            </p>
+            <p>
+              East Lampung Regency, Lampung
+              
+            </p>
+          </div>
+        </header>
+    <div class="wrapper">
+
+        <section id="Artikel">
+            <div class="kolom" style="padding: 40px">
+                
+                <h3>Tentang Way Kambas</h3>
+                <p>Taman Nasional Way Kambas (TNWK) adalah taman nasional perlindungan gajah yang terletak di daerah Lampung tepatnya di Kecamatan Labuhan Ratu, Lampung Timur, Indonesia. Selain di Way Kambas, sekolah gajah (Pusat Latihan Gajah) juga bisa ditemui di Minas, Riau. Gajah Sumatra (Elephas maximus sumatranus) yang hidup di kawasan ini semakin berkurang jumlahnya.
+                   </p>
+                <p><a href="#" onclick="tentang()" class="tbl">Lebih Lanjut</a></p>
+            </div>
+            <img src="image/3.jpg" style="border: 1px solid #fff; display: block; margin: auto; max-width: 80%; max-height: 200px; border-radius:10%"; />
+        </section>
+
+      
+       
+
+        <section class="isi" id="blog">
+          <div class="atas">
+            <h3 style="text-align: center;"> Wisata Way Kambas</h3>
+            <p class="ringkasan" style="text-align: center;">
+              Taman Nasional Way Kambas memiliki wisata yang bisa anda kunjungi.
+            </p>
+            <div class="blog">
+
+              <div class="area" onclick="wisata()">
+
+                <div class="gambar" style="background-image: url('image/5.jpg')"></div>
+
+                <div class="text">
+                  <article>
+                    <h4><a href="#">Pusat Konservasi Gajah</a></h4>
+                    <p class="ringkasan">
+                       Gajah Sumatera yang ditempatkan dalam satu tempat yang lebih dikenal dengan sebutan PLG (Pusat Latihan Gajah).
+                    </p>
+                  </article>
+                </div>
+              </div>
+              <div class="area" onclick="wisata()">
+
+                <div class="gambar" style="background-image: url('image/tnwk1.jpg') "></div>
+
+                <div class="text">
+
+                  <article>
+
+                    <h4><a href="#">Way Kanan Resort</a></h4>
+
+                    <p class="ringkasan">
+                      Wilayah Resot Way Kanan, salah satu tujuan wisata alam penting di Taman nasional way kambas (TNWK), khususnya  dengan kegiatan-kegiatan adventure dan penelitian.
+                      
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+       
+        
+    </div>
+
+
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2022. <b>AbednegoErindraPutra.</b> All Rights Reserved.
+        </div>
+    </div>
+
+    <script>
+        function home()
+        {
+            location.href="index.html";
+
+        }
+        function tentang()
+        {
+            location.href="tentang.html";
+        }
+        function wisata()
+        {
+            location.href="wisata.html";
+
+        }
+        function peta()
+        {
+            location.href="peta.html";
+        }
+        function biodata()
+        {
+            location.href="biodata.html";
+        }
+    </script>
+    
+</body>
+</html>
